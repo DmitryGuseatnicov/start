@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+  box-sizing: border-box;
+}
+
+.app {
+  &__auth-informer {
+    width:  fit-content;
+    position: absolute; 
+    top: 5px;
+    left: 10px;
+    width: 20%;
+  }
+
+  &__auth-informer-2 {
+    width:  fit-content;
+    position: absolute; 
+    bottom: 5px;
+    right: 10px;
+    width: 20%;
+  }
+
+  &__content {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+  }
+
+  &__content-arrow {
+    margin: 0 40px;
+    max-width: 550px;
+    width: 100%;
+
+    img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+  }
+
+  &__content-each {
+    &:first-child {}
+    position: relative;
+    max-width: 170px;
+    width: 100%;
+    max-height: 170px;
+
+    img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+  }
+}
